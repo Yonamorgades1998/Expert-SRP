@@ -4,7 +4,8 @@ namespace Expert_SRP
 {
     public class Kiosco 
     {
-        // Esta función no cumple el patron de SRP ya que tiene una funcion de calcular  una conversion que podria ser  de otra clase
+        // Esta función no cumple el patron de SRP ya que tiene una función de calcular  una conversion que podria ser  de otra clase
+     
         public Boolean PuedeComprar(Alfajor a, Double dinero, String moneda) 
         {
             Double pesos = ConvertirAPesos(dinero, moneda);
