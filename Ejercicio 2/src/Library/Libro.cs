@@ -4,7 +4,8 @@ namespace SRP
 {
     public class Libro
     {
-
+        //  Considero que esta clase cumple  con el SRP ya que cumple con todas las responsabilidades que son necesarias para la identificacion y funcionalidad de los libros 
+        //  y tambien conoce toda la informacion de los mismo//
         public string Titulo { get ; }
         public string Autor { get ; }
         public string Codigo { get ;  }
